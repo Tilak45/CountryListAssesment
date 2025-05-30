@@ -129,17 +129,11 @@ Ensures:
 	•	Proper UI updates when data is fetched
 	•	Handling of empty search results
 	•	Layout integrity across devices
-
-
-
 How to run the App
 	1.	Clone the repository.
 	2.	Open the .xcodeproj or .xcworkspace file in Xcode.
 	3.	Select a simulator or connected iOS device.
 	4.	Press Run (⌘ + R) to launch the app.
-
-
-
 How to run the Tests
 	1.	Open the project in Xcode.
 	2.	Select the appropriate test target.
