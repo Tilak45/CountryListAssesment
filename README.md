@@ -1,15 +1,9 @@
 
 
-
-
-
-Country Lookup
-
 Overview
 
 This project provides a Swift-based implementation for fetching country data from an API, processing the results, and filtering them based on user input. It is designed using a modular and testable architecture, following the Model-View-ViewModel (MVVM) pattern to ensure a clear separation of concerns. The UI is built using UIKit, providing a responsive and intuitive experience. Additionally, the project leverages Swift Concurrency (async/await) for efficient asynchronous operations and follows a protocol-oriented programming approach to enhance flexibility and testability.
 
-⸻
 
 Key Features
 	•	Fetch country data from a remote JSON source using URLSession and async/await.
@@ -22,7 +16,6 @@ Key Features
 	•	Localization support using NSLocalizedString.
 	•	Unit tests for networking, ViewModel logic, and UI behavior using XCTest.
 
-⸻
 
 App Demo
 
@@ -33,11 +26,11 @@ iPhone with orientations
 https://github.com/user-attachments/assets/8bdfcfd5-99f0-4585-8f7c-c1975101804e
 
 
-⸻
+
 
 Project Structure
 
-⸻
+
 
 1. Networking
 
@@ -93,7 +86,7 @@ struct NetworkClient: NetworkClientProtocol {
 }
 
 
-⸻
+
 
 2. ViewModel
 
@@ -113,7 +106,7 @@ class CountriesViewModel {
 }
 
 
-⸻
+
 
 3. Unit Testing
 
@@ -137,7 +130,7 @@ Ensures:
 	•	Handling of empty search results
 	•	Layout integrity across devices
 
-⸻
+
 
 How to run the App
 	1.	Clone the repository.
@@ -145,7 +138,7 @@ How to run the App
 	3.	Select a simulator or connected iOS device.
 	4.	Press Run (⌘ + R) to launch the app.
 
-⸻
+
 
 How to run the Tests
 	1.	Open the project in Xcode.
@@ -153,6 +146,6 @@ How to run the Tests
 	3.	Go to Product > Test, or press ⌘ + U.
 	4.	Unit tests for networking, view model, and view controller will run with results displayed in the Test Navigator.
 
-⸻
+
 
 
